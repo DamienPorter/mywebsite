@@ -109,7 +109,11 @@ html {
 }
 
 .banner {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.jobtitle {
+  margin-top: 50px;
 }
 
 footer {
