@@ -296,6 +296,7 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
+  line-height: 2;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -10136,7 +10137,7 @@ padding-bottom: 20px;
 }
 
 .hsbclogo {
-  height: 48px;
+  height: auto;
   width: 130px;
   margin-top: 20px;
   padding-bottom: 20px;
