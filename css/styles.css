@@ -116,13 +116,14 @@ footer {
   display: flex;    
   align-items: center;
   justify-content: center;
-  border-top: 2px solid
+  /* border-top: 2px solid */
 }
 
 
 .linkedinlogo3 {
   height: 35px;
   width: 35px;
+  margin-left: -4px;
 }
 
 .maillogo {
@@ -147,7 +148,7 @@ padding-top: 10px;
 }
 
 .myexperience {
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 hr {
@@ -211,9 +212,9 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 18px;
+  /* margin-top: 0;
+  margin-bottom: 1rem; */
+  font-size: 16px;
 }
 
 abbr[title] {
@@ -239,7 +240,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 ol ol,
@@ -295,6 +296,7 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
+  line-height: 2;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -10122,26 +10124,30 @@ margin-top: 40px;
 }
 
 .earculogo {
-height: 75px;
+height: auto;
 width: 130px;
+padding-bottom: 20px;
 }
 
 .bbclogo {
-  height: 50px;
+  height: auto;
   width: 130px;
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .hsbclogo {
-  height: 70px;
+  height: auto;
   width: 130px;
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .woottonrangerslogo {
-  height: 100px;
-  width: 130px;
+  height: auto;
+  width: 120px;
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .wrwebsite {
@@ -10160,6 +10166,9 @@ hr.divider-light {
   background-color: #fff;
 }
 
+li {
+  line-height: 1.5;
+}
 
 .footer-ul {
   font-size: 12px;
