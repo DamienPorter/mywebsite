@@ -10778,7 +10778,7 @@ a.contactmelink {
     top: 53px;
     width: 100%;
     z-index: 1000;
-    border-bottom: 4px solid #1a2238;
+    border-bottom: 0.5px solid #1a2238;
     left: 0;
     padding-left: 20px;
   }
@@ -10790,6 +10790,7 @@ a.contactmelink {
       top: 0;
       z-index: 100;
       width: 100%;
+      border-bottom: 0.5px solid #1a2238;
     }
 
     @media screen and (max-width: 810px) {
@@ -10801,6 +10802,13 @@ a.contactmelink {
     @media screen and (max-width: 810px) {
       .myphoto {
         margin-top: 20px;
+      }
+    }
+
+    @media screen and (max-width: 810px) {
+      .bannerphoto {
+        height: 95%;
+        width: 95%;
       }
     }
 
