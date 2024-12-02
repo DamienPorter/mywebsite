@@ -177,6 +177,11 @@ footer {
   padding: 10px 0 10px 0;
 }
 
+p.copyrighttext {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
 .myexperience {
   /* padding-top: 20px; */
 }
@@ -10466,16 +10471,23 @@ hr.divider {
   color: #7d7d7d;
 }
 
-.certificationslist {
-  list-style-type: square;
-}
-
 hr.divider-light {
   background-color: #fff;
 }
 
 li {
   line-height: 1.5;
+}
+
+ul.square li {
+  list-style-type: square;
+}
+
+.page-section ul.square {
+  margin-left: 1.5rem;
+  @media (min-width: 768px) {
+    margin-left: 0;
+  }
 }
 
 .footer-ul {
