@@ -9134,10 +9134,12 @@ header {
 }
 
 
+
   .menu-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   height: 4rem;
+   border-bottom: 0.5px solid #1a2238;
+   background-color: #fff;
+   width: 100%;
   }
 
   .hamburger {
@@ -9146,7 +9148,6 @@ header {
     left: 20px;
     cursor: pointer;
     z-index: 1000;
-    /* background-color: #fff; */
   }
 
   .hamburger div {
@@ -9200,6 +9201,8 @@ header {
   .menu.open {
     transform: translateX(0);
   }
+
+
 
   .hamburger.open div:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
