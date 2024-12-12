@@ -9198,9 +9198,68 @@ header {
   }
   
 
-  .menu.open {
-    transform: translateX(0);
+
+  /* Different colour background and text in mobile start */
+
+  .menu {
+    background-color: #fff;
+    height: 100%;
+    @media (min-width: 768px) {
+      transform: translateX(0);
+      a {
+        color: #1a2238;
+      }
+    }
+    &.open {
+      transform: translateX(0);
+      background-color: #1a2238;
+      a {
+        color: #fff;
+      }
+      @media (min-width: 768px) {
+        transform: translateX(0);
+        background-color: #fff;
+        a {
+          color: #1a2238;
+        }
+      }
+    }
   }
+
+
+  .hamburger:has(+ .menu.open) div {
+    background-color: #fff;
+  }
+
+
+
+    /* @media (min-width: 768px) {
+    .hamburger div {
+      background-color: #fff;
+      }
+    } */
+
+/* @media (min-width: 768px) {
+.menu.open {
+ transform: translateX(0)
+ background-color: #1a2238
+}
+  }
+
+@media (min-width: 768px) {
+.menu.open a {
+color: ##fff
+}
+}
+
+@media (min-width: 768px) {
+.hamburger div {
+background-color: #fff;
+}
+} */
+
+
+  /* Different colour background and text in mobile end */
 
 
 
