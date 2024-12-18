@@ -136,10 +136,12 @@ footer {
 
 
 .linkedinlogo3 {
-  height: 53px;
+  height: 54px;
   width: 53px;
   background-color: #fff;
   border-radius: 10px;
+  filter: brightness(1.4);
+  margin-left: 20px;
   &:hover{
     opacity: 0.6;
     transition: 0.9s ease;
@@ -9061,18 +9063,16 @@ header.masthead .h1 {
 
 .contactcontainer {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
+  justify-content: space-evenly;
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
 .linkedinbutton {
-  display: inline-block;
   list-style-type: none;
   line-height: 2;
   padding-left: 0;
-  padding-right: 80px;
+  padding-right: 40px;
   filter: brightness(1.3)
 }
 
@@ -9086,6 +9086,7 @@ a.contactmelink {
   cursor: pointer;
   font-weight: bold;
   transition-duration: 0.4s;
+  margin-right: 20px;
   &:hover{
     background: #fff;
     color: #1a2238;
@@ -9097,34 +9098,17 @@ a.contactmelink {
 .bannerphoto {
   border-radius: 50%;
   border: 0.5px solid;
-  /* margin-top: 60px; */
+  max-height: 90%;
+  max-width: 90%;
+  filter: brightness(1.2)
 }
 
 .myphoto {
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
-  filter: brightness(1.2)
 }
 
-    @media screen and (min-width: 768px) {
-      .mynametext {
-        margin-top: 50px;
-      }
-    }
-
-    @media screen and (min-width: 768px) {
-      .myphoto {
-        margin-top: 20px;
-      }
-    }
-
-    @media screen and (max-width: 810px) {
-      .bannerphoto {
-        height: 90%;
-        width: 90%;
-      }
-    }
 
 header {
   position: fixed;
