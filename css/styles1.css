@@ -163,6 +163,7 @@ p.copyrighttext {
 
 .recommendationname {
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 hr {
